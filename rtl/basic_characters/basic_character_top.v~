@@ -1,0 +1,84 @@
+`include "basic_character_header.v"
+
+module basic_character_top (/*AUTOARG*/
+                            // Outputs
+                            out_assign, out_always,
+                            // Inputs
+                            sel_b2, sel_b1, b, a
+                            );
+`ifdef STEP_ONE
+    // /*AUTOOUTPUT*/
+    // step_one_module step_one_module_inst(
+    //                                      /*AUTOINST*/);
+`endif
+`ifdef MODULE_7458
+    // /*AUTOINPUT*/
+    // /*AUTOOUTPUT*/
+    // module_7458 module_7458_inst(
+    //                              /*AUTOINST*/);    
+`endif
+`ifdef ALWAYS_CASE
+    ///*AUTOINPUT*/
+    ///*AUTOOUTPUT*/
+    ///*AUTOREG*/
+
+    // always_case always_case_inst(
+    //                              /*AUTOINST*/);   
+`endif
+`ifdef ADDER100I
+    // /*AUTOINPUT*/
+    // /*AUTOOUTPUT*/
+    // /*AUTOREG*/
+
+    // adder100i adder100i_inst(
+    //                          /*AUTOINST*/);    
+`endif
+`ifdef ALWAYS_CASE2V
+    // /*AUTOINPUT*/
+    // /*AUTOOUTPUT*/
+    // /*AUTOREG*/
+    // always_case2v adder100i_inst(
+    //                              /*AUTOINST*/);
+`endif
+`ifdef ALWAYS_CASEZV
+    // /*AUTOINPUT*/
+    // /*AUTOOUTPUT*/
+    // /*AUTOREG*/
+    // always_case_zv always_casezv_inst(
+    //                                   /*AUTOINST*/);
+`endif
+`ifdef ALWAYS_IF
+    /*AUTOINPUT*/
+    // Beginning of automatic inputs (from unused autoinst inputs)
+    input               a;                      // To always_if_inst of always_if.v
+    input               b;                      // To always_if_inst of always_if.v
+    input               sel_b1;                 // To always_if_inst of always_if.v
+    input               sel_b2;                 // To always_if_inst of always_if.v
+    // End of automatics
+    /*AUTOOUTPUT*/
+    // Beginning of automatic outputs (from unused autoinst outputs)
+    output              out_always;             // From always_if_inst of always_if.v
+    output              out_assign;             // From always_if_inst of always_if.v
+    // End of automatics
+    /*AUTOREG*/
+    always_if always_if_inst(
+                             /*AUTOINST*/
+                             // Outputs
+                             .out_assign        (out_assign),
+                             .out_always        (out_always),
+                             // Inputs
+                             .a                 (a),
+                             .b                 (b),
+                             .sel_b1            (sel_b1),
+                             .sel_b2            (sel_b2));
+`endif
+    
+
+endmodule
+
+
+
+
+
+
+

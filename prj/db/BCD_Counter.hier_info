@@ -1,0 +1,28 @@
+|basic_character_top
+pos[0] <= always_case_zv:always_casezv_inst.pos
+pos[1] <= always_case_zv:always_casezv_inst.pos
+pos[2] <= always_case_zv:always_casezv_inst.pos
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+
+
+|basic_character_top|always_case_zv:always_casezv_inst
+in[0] => Decoder0.IN7
+in[1] => Decoder0.IN6
+in[2] => Decoder0.IN5
+in[3] => Decoder0.IN4
+in[4] => Decoder0.IN3
+in[5] => Decoder0.IN2
+in[6] => Decoder0.IN1
+in[7] => Decoder0.IN0
+pos[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+pos[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+pos[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

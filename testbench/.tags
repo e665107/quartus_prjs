@@ -1,0 +1,1050 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/;"	extras:pseudo
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/;"	extras:pseudo
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/;"	extras:pseudo
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/;"	extras:pseudo
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/;"	extras:pseudo
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/;"	extras:pseudo
+!_TAG_PROC_CWD	g:/test_projects/quartus_prjs/common/testbench/	//;"	extras:pseudo
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//;"	extras:pseudo
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/;"	extras:pseudo
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/;"	extras:pseudo
+!_TAG_PROGRAM_VERSION	5.9.0	/c8107978/;"	extras:pseudo
+AB1	ActionBurst2_tb.v	/^ActionBurst2 AB1 ($/;"	kind:instance	line:77	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+AB1	ActionBurst_tb.v	/^ActionBurst AB1 ($/;"	kind:instance	line:77	language:Verilog	scope:module:ActionBurst_tb	roles:def
+ActionBurst2_tb	ActionBurst2_tb.v	/^module ActionBurst2_tb();$/;"	kind:module	line:12	language:Verilog	roles:def
+ActionBurst2_tb.AB1	ActionBurst2_tb.v	/^ActionBurst2 AB1 ($/;"	kind:instance	line:77	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.CD1	ActionBurst2_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.DerivedClocks	ActionBurst2_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.ED1	ActionBurst2_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.E_DerivedClocks	ActionBurst2_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.RNG1	ActionBurst2_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.RandomNumber1	ActionBurst2_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.clk200	ActionBurst2_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.nrst	ActionBurst2_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.nrst_once	ActionBurst2_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.out	ActionBurst2_tb.v	/^wire out;$/;"	kind:net	line:76	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.rst	ActionBurst2_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.rst_once	ActionBurst2_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.start	ActionBurst2_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:ActionBurst2_tb	roles:def	extras:qualified
+ActionBurst2_tb.v	ActionBurst2_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:88	epoch:1625361588
+ActionBurst_tb	ActionBurst_tb.v	/^module ActionBurst_tb();$/;"	kind:module	line:12	language:Verilog	roles:def
+ActionBurst_tb.AB1	ActionBurst_tb.v	/^ActionBurst AB1 ($/;"	kind:instance	line:77	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.CD1	ActionBurst_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.DerivedClocks	ActionBurst_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.ED1	ActionBurst_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.E_DerivedClocks	ActionBurst_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.RNG1	ActionBurst_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.RandomNumber1	ActionBurst_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.clk200	ActionBurst_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.nrst	ActionBurst_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.nrst_once	ActionBurst_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.out	ActionBurst_tb.v	/^wire out;$/;"	kind:net	line:76	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.rst	ActionBurst_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.rst_once	ActionBurst_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.start	ActionBurst_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:ActionBurst_tb	roles:def	extras:qualified
+ActionBurst_tb.v	ActionBurst_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:89	epoch:1625361589
+BCD_Counter0	BCD_Counter_tb.v	/^	BCD_Counter BCD_Counter0($/;"	kind:instance	line:14	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+BCD_Counter_tb	BCD_Counter_tb.v	/^module BCD_Counter_tb;$/;"	kind:module	line:5	language:Verilog	roles:def
+BCD_Counter_tb.BCD_Counter0	BCD_Counter_tb.v	/^	BCD_Counter BCD_Counter0($/;"	kind:instance	line:14	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.Cin	BCD_Counter_tb.v	/^	reg Cin;$/;"	kind:register	line:8	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.Clk	BCD_Counter_tb.v	/^	reg Clk;$/;"	kind:register	line:7	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.Cout	BCD_Counter_tb.v	/^	wire Cout;$/;"	kind:net	line:11	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.Rst_n	BCD_Counter_tb.v	/^	reg Rst_n;$/;"	kind:register	line:9	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.q	BCD_Counter_tb.v	/^	wire [3:0]q;$/;"	kind:net	line:12	language:Verilog	scope:module:BCD_Counter_tb	roles:def	extras:qualified
+BCD_Counter_tb.v	BCD_Counter_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:41	epoch:1625327516
+BCD_Counter_top0	BCD_Counter_top_tb.v	/^	BCD_Counter_top BCD_Counter_top0($/;"	kind:instance	line:14	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+BCD_Counter_top_tb	BCD_Counter_top_tb.v	/^module BCD_Counter_top_tb;$/;"	kind:module	line:5	language:Verilog	roles:def
+BCD_Counter_top_tb.BCD_Counter_top0	BCD_Counter_top_tb.v	/^	BCD_Counter_top BCD_Counter_top0($/;"	kind:instance	line:14	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.Cin	BCD_Counter_top_tb.v	/^	reg Cin;$/;"	kind:register	line:8	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.Clk	BCD_Counter_top_tb.v	/^	reg Clk;$/;"	kind:register	line:7	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.Cout	BCD_Counter_top_tb.v	/^	wire Cout;$/;"	kind:net	line:11	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.Rst_n	BCD_Counter_top_tb.v	/^	reg Rst_n;$/;"	kind:register	line:9	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.q	BCD_Counter_top_tb.v	/^	wire [11:0]q;$/;"	kind:net	line:12	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def	extras:qualified
+BCD_Counter_top_tb.v	BCD_Counter_top_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:36	epoch:1625327516
+BG1	gray_tb.sv	/^) BG1 ($/;"	kind:instance	line:99	language:SystemVerilog	scope:module:gray_tb	roles:def
+BP1	bin2pos_tb.sv	/^) BP1 ($/;"	kind:instance	line:88	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+BP1	pos2bin_tb.sv	/^) BP1 ($/;"	kind:instance	line:88	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+CD1	ActionBurst2_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+CD1	ActionBurst_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:ActionBurst_tb	roles:def
+CD1	UartTx_UartRx_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:50	language:Verilog	roles:def
+CD1	bin2pos_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+CD1	debounce_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:debounce_tb	roles:def
+CD1	edge_detect_tb.sv	/^) CD1 ($/;"	kind:instance	line:50	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+CD1	encoder_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:34	language:Verilog	scope:module:encoder_tb	roles:def
+CD1	fifo_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:fifo_tb	roles:def
+CD1	lifo_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:lifo_tb	roles:def
+CD1	pos2bin_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+CD1	reverse_dimensions_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+CD1	reverse_vector_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+Cin	BCD_Counter_tb.v	/^	reg Cin;$/;"	kind:register	line:8	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+Cin	BCD_Counter_top_tb.v	/^	reg Cin;$/;"	kind:register	line:8	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+Clk	BCD_Counter_tb.v	/^	reg Clk;$/;"	kind:register	line:7	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+Clk	BCD_Counter_top_tb.v	/^	reg Clk;$/;"	kind:register	line:7	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+Cout	BCD_Counter_tb.v	/^	wire Cout;$/;"	kind:net	line:11	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+Cout	BCD_Counter_top_tb.v	/^	wire Cout;$/;"	kind:net	line:11	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+DB	uart_tx_rx_shifter_tb.sv	/^`define DB   8$/;"	kind:constant	line:95	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+DB1	debounce_tb.v	/^debounce DB1 ($/;"	kind:instance	line:80	language:Verilog	scope:module:debounce_tb	roles:def
+DerivedClocks	ActionBurst2_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+DerivedClocks	ActionBurst_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:ActionBurst_tb	roles:def
+DerivedClocks	UartTx_UartRx_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:49	language:Verilog	roles:def
+DerivedClocks	adder_tree_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+DerivedClocks	bin2pos_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+DerivedClocks	debounce_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:debounce_tb	roles:def
+DerivedClocks	delay_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:delay_tb	roles:def
+DerivedClocks	dynamic_delay_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+DerivedClocks	edge_detect_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:47	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+DerivedClocks	encoder_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:33	language:Verilog	scope:module:encoder_tb	roles:def
+DerivedClocks	fast_counter_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+DerivedClocks	fifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:fifo_tb	roles:def
+DerivedClocks	gray_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:gray_tb	roles:def
+DerivedClocks	leave_one_hot_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+DerivedClocks	lifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:lifo_tb	roles:def
+DerivedClocks	main_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:main_tb	roles:def
+DerivedClocks	pdm_modulator_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+DerivedClocks	pos2bin_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+DerivedClocks	prbs_gen_chk_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:53	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+DerivedClocks	preview_fifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+DerivedClocks	pulse_gen_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+DerivedClocks	pulse_stretch_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+DerivedClocks	pwm_modulator_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+DerivedClocks	reverse_dimensions_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+DerivedClocks	reverse_vector_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+DerivedClocks	spi_master_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:60	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+DerivedClocks	uart_tx_rx_shifter_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+E1	encoder_tb.v	/^encoder E1($/;"	kind:instance	line:74	language:Verilog	scope:module:encoder_tb	roles:def
+ED1	ActionBurst2_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+ED1	ActionBurst_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:ActionBurst_tb	roles:def
+ED1	UartTx_UartRx_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:57	language:Verilog	roles:def
+ED1	bin2pos_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+ED1	debounce_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:debounce_tb	roles:def
+ED1	edge_detect_tb.sv	/^edge_detect ED1[15:0] ($/;"	kind:instance	line:74	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+ED1	encoder_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:41	language:Verilog	scope:module:encoder_tb	roles:def
+ED1	fifo_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:fifo_tb	roles:def
+ED1	lifo_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:lifo_tb	roles:def
+ED1	pos2bin_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+ED1	reverse_dimensions_tb.sv	/^edge_detect ED1[31:0] ($/;"	kind:instance	line:59	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+ED1	reverse_vector_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+E_DerivedClocks	ActionBurst2_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+E_DerivedClocks	ActionBurst_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:ActionBurst_tb	roles:def
+E_DerivedClocks	UartTx_UartRx_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:56	language:Verilog	roles:def
+E_DerivedClocks	adder_tree_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+E_DerivedClocks	bin2pos_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+E_DerivedClocks	debounce_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:debounce_tb	roles:def
+E_DerivedClocks	delay_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:delay_tb	roles:def
+E_DerivedClocks	dynamic_delay_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+E_DerivedClocks	encoder_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:40	language:Verilog	scope:module:encoder_tb	roles:def
+E_DerivedClocks	fast_counter_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+E_DerivedClocks	fifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:fifo_tb	roles:def
+E_DerivedClocks	gray_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:gray_tb	roles:def
+E_DerivedClocks	leave_one_hot_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+E_DerivedClocks	lifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:lifo_tb	roles:def
+E_DerivedClocks	main_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:main_tb	roles:def
+E_DerivedClocks	pdm_modulator_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+E_DerivedClocks	pos2bin_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+E_DerivedClocks	prbs_gen_chk_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:63	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+E_DerivedClocks	preview_fifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+E_DerivedClocks	pulse_gen_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+E_DerivedClocks	pulse_stretch_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+E_DerivedClocks	pwm_modulator_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+E_DerivedClocks	reverse_dimensions_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:58	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+E_DerivedClocks	reverse_vector_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+E_DerivedClocks	spi_master_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:70	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+E_DerivedClocks	uart_tx_rx_shifter_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+FF1	fifo_tb.sv	/^) FF1 ($/;"	kind:instance	line:93	language:SystemVerilog	scope:module:fifo_tb	roles:def
+GB1	gray_tb.sv	/^) GB1 ($/;"	kind:instance	line:107	language:SystemVerilog	scope:module:gray_tb	roles:def
+LF1	lifo_tb.sv	/^) LF1 ($/;"	kind:instance	line:93	language:SystemVerilog	scope:module:lifo_tb	roles:def
+M	dynamic_delay_tb.sv	/^) M ($/;"	kind:instance	line:85	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+M	leave_one_hot_tb.sv	/^) M ($/;"	kind:instance	line:86	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+M	main_tb.sv	/^Main M (    \/\/ module under test$/;"	kind:instance	line:104	language:SystemVerilog	scope:module:main_tb	roles:def
+M	preview_fifo_tb.sv	/^) M ($/;"	kind:instance	line:184	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+MOD_WIDTH	pdm_modulator_tb.sv	/^localparam MOD_WIDTH = 5;$/;"	kind:constant	line:100	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+MOD_WIDTH	pwm_modulator_tb.sv	/^localparam MOD_WIDTH = 5;$/;"	kind:constant	line:100	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+PB1	pos2bin_tb.sv	/^) PB1 ($/;"	kind:instance	line:116	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+RD1	reverse_dimensions_tb.sv	/^) RD1 ($/;"	kind:instance	line:94	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+RNG1	ActionBurst2_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+RNG1	ActionBurst_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:ActionBurst_tb	roles:def
+RNG1	UartTx_UartRx_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:Verilog	roles:def
+RNG1	bin2pos_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+RNG1	debounce_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:debounce_tb	roles:def
+RNG1	edge_detect_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+RNG1	encoder_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:58	language:Verilog	scope:module:encoder_tb	roles:def
+RNG1	fifo_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:fifo_tb	roles:def
+RNG1	lifo_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:lifo_tb	roles:def
+RNG1	pos2bin_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+RNG1	reverse_dimensions_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:69	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+RNG1	reverse_vector_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+RV1	reverse_vector_tb.sv	/^) RV1 ($/;"	kind:instance	line:89	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+RV2	reverse_vector_tb.sv	/^) RV2 ($/;"	kind:instance	line:98	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+R_2WORD_ENA	preview_fifo_tb.sv	/^`define R_2WORD_ENA = yes;$/;"	kind:constant	line:102	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+R_ENA	preview_fifo_tb.sv	/^`define R_ENA = yes;$/;"	kind:constant	line:101	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+RandomNumber1	ActionBurst2_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+RandomNumber1	ActionBurst_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:ActionBurst_tb	roles:def
+RandomNumber1	UartTx_UartRx_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:67	language:Verilog	roles:def
+RandomNumber1	adder_tree_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+RandomNumber1	bin2pos_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+RandomNumber1	debounce_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:debounce_tb	roles:def
+RandomNumber1	delay_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:delay_tb	roles:def
+RandomNumber1	dynamic_delay_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:55	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+RandomNumber1	edge_detect_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+RandomNumber1	encoder_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:51	language:Verilog	scope:module:encoder_tb	roles:def
+RandomNumber1	fast_counter_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+RandomNumber1	fifo_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:fifo_tb	roles:def
+RandomNumber1	gray_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:gray_tb	roles:def
+RandomNumber1	leave_one_hot_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+RandomNumber1	lifo_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:lifo_tb	roles:def
+RandomNumber1	main_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:77	language:SystemVerilog	scope:module:main_tb	roles:def
+RandomNumber1	pdm_modulator_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+RandomNumber1	pos2bin_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+RandomNumber1	prbs_gen_chk_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:73	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+RandomNumber1	preview_fifo_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+RandomNumber1	pulse_gen_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+RandomNumber1	pulse_stretch_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+RandomNumber1	pwm_modulator_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+RandomNumber1	reverse_dimensions_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:68	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+RandomNumber1	reverse_vector_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+RandomNumber1	spi_master_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:80	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+RandomNumber1	uart_tx_rx_shifter_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+RandomNumber1_d1	preview_fifo_tb.sv	/^logic [31:0] RandomNumber1_d1;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+Rst_n	BCD_Counter_tb.v	/^	reg Rst_n;$/;"	kind:register	line:9	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+Rst_n	BCD_Counter_top_tb.v	/^	reg Rst_n;$/;"	kind:register	line:9	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+SIMULATION	fast_counter_tb.sv	/^`define SIMULATION yes$/;"	kind:constant	line:10	language:SystemVerilog	roles:def
+SIMULATION	main_tb.sv	/^`define SIMULATION yes$/;"	kind:constant	line:10	language:SystemVerilog	roles:def
+SM1	spi_master_tb.sv	/^) SM1 ($/;"	kind:instance	line:116	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+SM2	spi_master_tb.sv	/^) SM2 ($/;"	kind:instance	line:141	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+SM3	spi_master_tb.sv	/^) SM3 ($/;"	kind:instance	line:166	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+SM4	spi_master_tb.sv	/^) SM4 ($/;"	kind:instance	line:191	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+SPB	uart_tx_rx_shifter_tb.sv	/^`define SPB  2$/;"	kind:constant	line:96	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+STB	uart_tx_rx_shifter_tb.sv	/^`define STB  1$/;"	kind:constant	line:94	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+UR1	UartTx_UartRx_tb.v	/^UartRx UR1 ($/;"	kind:instance	line:97	language:Verilog	roles:def
+UT1	UartTx_UartRx_tb.v	/^UartTx UT1 ($/;"	kind:instance	line:85	language:Verilog	roles:def
+UartTx_UartRx_tb.v	UartTx_UartRx_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:109	epoch:1625361589
+WIDTH	fast_counter_tb.sv	/^`define WIDTH 14$/;"	kind:constant	line:137	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+WIDTH	gray_tb.sv	/^`define WIDTH 32$/;"	kind:constant	line:84	language:SystemVerilog	scope:module:gray_tb	roles:def
+W_2WORD_ENA	preview_fifo_tb.sv	/^`define W_2WORD_ENA = yes;$/;"	kind:constant	line:99	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+W_ENA	preview_fifo_tb.sv	/^`define W_ENA = yes;$/;"	kind:constant	line:98	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+adc1_seq_cntr	main_tb.sv	/^reg [7:0] adc1_seq_cntr = 0;$/;"	kind:register	line:114	language:SystemVerilog	scope:module:main_tb	roles:def
+adder_tree_tb	adder_tree_tb.sv	/^module adder_tree_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+adder_tree_tb.DerivedClocks	adder_tree_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.E_DerivedClocks	adder_tree_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.RandomNumber1	adder_tree_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.at	adder_tree_tb.sv	/^) at ($/;"	kind:instance	line:87	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.cd1	adder_tree_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.clk200	adder_tree_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.ed1	adder_tree_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.nrst	adder_tree_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.nrst_once	adder_tree_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.rng1	adder_tree_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.rst	adder_tree_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.rst_once	adder_tree_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.start	adder_tree_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:adder_tree_tb	roles:def	extras:qualified
+adder_tree_tb.sv	adder_tree_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:102	epoch:1625361590
+at	adder_tree_tb.sv	/^) at ($/;"	kind:instance	line:87	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+bin	gray_tb.sv	/^logic [`WIDTH-1:0] bin = 0;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:gray_tb	roles:def
+bin2	gray_tb.sv	/^logic [`WIDTH-1:0] bin2;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:gray_tb	roles:def
+bin2	pos2bin_tb.sv	/^logic [3:0] bin2;$/;"	kind:register	line:112	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+bin2pos_tb	bin2pos_tb.sv	/^module bin2pos_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+bin2pos_tb.BP1	bin2pos_tb.sv	/^) BP1 ($/;"	kind:instance	line:88	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.CD1	bin2pos_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.DerivedClocks	bin2pos_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.ED1	bin2pos_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.E_DerivedClocks	bin2pos_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.RNG1	bin2pos_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.RandomNumber1	bin2pos_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.clk200	bin2pos_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.nrst	bin2pos_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.nrst_once	bin2pos_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.pos	bin2pos_tb.sv	/^logic [15:0] pos;$/;"	kind:register	line:85	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.rst	bin2pos_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.rst_once	bin2pos_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.start	bin2pos_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:bin2pos_tb	roles:def	extras:qualified
+bin2pos_tb.sv	bin2pos_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:93	epoch:1625361590
+cd1	adder_tree_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+cd1	delay_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:delay_tb	roles:def
+cd1	dynamic_delay_tb.sv	/^) cd1 ($/;"	kind:instance	line:38	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+cd1	fast_counter_tb.sv	/^) cd1 ($/;"	kind:instance	line:59	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+cd1	gray_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:gray_tb	roles:def
+cd1	leave_one_hot_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+cd1	main_tb.sv	/^) cd1 ($/;"	kind:instance	line:60	language:SystemVerilog	scope:module:main_tb	roles:def
+cd1	pdm_modulator_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+cd1	prbs_gen_chk_tb.sv	/^) cd1 ($/;"	kind:instance	line:56	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+cd1	preview_fifo_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+cd1	pulse_gen_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+cd1	pulse_stretch_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+cd1	pwm_modulator_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+cd1	spi_master_tb.sv	/^) cd1 ($/;"	kind:instance	line:63	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+cd1	uart_tx_rx_shifter_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+checker	prbs_gen_chk_tb.sv	/^) checker ($/;"	kind:instance	line:112	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+clk1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk1_pin_fall	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk1_pin_rise	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk200	ActionBurst2_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+clk200	ActionBurst_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:ActionBurst_tb	roles:def
+clk200	UartTx_UartRx_tb.v	/^reg clk200;$/;"	kind:register	line:19	language:Verilog	roles:def
+clk200	adder_tree_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+clk200	bin2pos_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+clk200	debounce_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:debounce_tb	roles:def
+clk200	delay_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:delay_tb	roles:def
+clk200	dynamic_delay_tb.sv	/^logic clk200;$/;"	kind:register	line:8	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+clk200	edge_detect_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+clk200	encoder_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:encoder_tb	roles:def
+clk200	fast_counter_tb.sv	/^logic clk200;$/;"	kind:register	line:16	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+clk200	fifo_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:fifo_tb	roles:def
+clk200	gray_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:gray_tb	roles:def
+clk200	leave_one_hot_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+clk200	lifo_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:lifo_tb	roles:def
+clk200	main_tb.sv	/^logic clk200;$/;"	kind:register	line:16	language:SystemVerilog	scope:module:main_tb	roles:def
+clk200	pdm_modulator_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+clk200	pos2bin_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+clk200	prbs_gen_chk_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+clk200	preview_fifo_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+clk200	pulse_gen_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+clk200	pulse_stretch_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+clk200	pwm_modulator_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+clk200	reverse_dimensions_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+clk200	reverse_vector_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+clk200	spi_master_tb.sv	/^logic clk200;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk200	uart_tx_rx_shifter_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+clk2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk2_pin_fall	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk2_pin_rise	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk33	delay_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:delay_tb	roles:def
+clk33	fast_counter_tb.sv	/^logic clk33;$/;"	kind:register	line:24	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+clk33	main_tb.sv	/^logic clk33;$/;"	kind:register	line:24	language:SystemVerilog	scope:module:main_tb	roles:def
+clk33	pdm_modulator_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+clk33	prbs_gen_chk_tb.sv	/^logic clk33;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+clk33	preview_fifo_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+clk33	pulse_gen_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+clk33	pwm_modulator_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+clk33	spi_master_tb.sv	/^logic clk33;$/;"	kind:register	line:28	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk33	uart_tx_rx_shifter_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+clk3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk3_pin_fall	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk3_pin_rise	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk400	delay_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:delay_tb	roles:def
+clk400	preview_fifo_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+clk400	uart_tx_rx_shifter_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+clk4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk4_pin_fall	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk4_pin_rise	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clk800	spi_master_tb.sv	/^logic clk800;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+clock_period	BCD_Counter_tb.v	/^`define clock_period 20$/;"	kind:constant	line:3	language:Verilog	roles:def
+clock_period	BCD_Counter_top_tb.v	/^`define clock_period 20$/;"	kind:constant	line:3	language:Verilog	roles:def
+d1	delay_tb.sv	/^) d1 ($/;"	kind:instance	line:97	language:SystemVerilog	scope:module:delay_tb	roles:def
+d1	prbs_gen_chk_tb.sv	/^logic [31:0] d1;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+d2	delay_tb.sv	/^) d2 ($/;"	kind:instance	line:110	language:SystemVerilog	scope:module:delay_tb	roles:def
+data_check_fifo	uart_tx_rx_shifter_tb.sv	/^) data_check_fifo ($/;"	kind:instance	line:142	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+data_rcvd	uart_tx_rx_shifter_tb.sv	/^logic [`DB-1:0] data_rcvd;$/;"	kind:register	line:123	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+data_sent	uart_tx_rx_shifter_tb.sv	/^logic [`DB-1:0] data_sent;$/;"	kind:register	line:138	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+data_valid	uart_tx_rx_shifter_tb.sv	/^logic data_valid;$/;"	kind:register	line:122	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+dbout	debounce_tb.v	/^wire dbout;$/;"	kind:net	line:79	language:Verilog	scope:module:debounce_tb	roles:def
+debounce_tb	debounce_tb.v	/^module debounce_tb();$/;"	kind:module	line:12	language:Verilog	roles:def
+debounce_tb.CD1	debounce_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:45	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.DB1	debounce_tb.v	/^debounce DB1 ($/;"	kind:instance	line:80	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.DerivedClocks	debounce_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:44	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.ED1	debounce_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:52	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.E_DerivedClocks	debounce_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:51	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.RNG1	debounce_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:63	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.RandomNumber1	debounce_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:62	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.clk200	debounce_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.dbout	debounce_tb.v	/^wire dbout;$/;"	kind:net	line:79	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.den	debounce_tb.v	/^wire den = RandomNumber1[1] && RandomNumber1[2];$/;"	kind:net	line:78	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.nrst	debounce_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.nrst_once	debounce_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.rst	debounce_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.rst_once	debounce_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.start	debounce_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:debounce_tb	roles:def	extras:qualified
+debounce_tb.v	debounce_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:89	epoch:1625361590
+dec	fast_counter_tb.sv	/^logic dec = 1'b0;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+delay_tb	delay_tb.sv	/^module delay_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+delay_tb.DerivedClocks	delay_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.E_DerivedClocks	delay_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.RandomNumber1	delay_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.cd1	delay_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.clk200	delay_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.clk33	delay_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.clk400	delay_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.d1	delay_tb.sv	/^) d1 ($/;"	kind:instance	line:97	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.d2	delay_tb.sv	/^) d2 ($/;"	kind:instance	line:110	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.ed1	delay_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.nrst	delay_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.nrst_once	delay_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.rng1	delay_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.rng2	delay_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.rst	delay_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.rst_once	delay_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:delay_tb	roles:def	extras:qualified
+delay_tb.sv	delay_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:120	epoch:1625361590
+den	debounce_tb.v	/^wire den = RandomNumber1[1] && RandomNumber1[2];$/;"	kind:net	line:78	language:Verilog	scope:module:debounce_tb	roles:def
+din1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+din2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+din3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+din4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+dis_writes	preview_fifo_tb.sv	/^logic dis_writes = 1'b0;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+dynamic_delay_tb	dynamic_delay_tb.sv	/^module dynamic_delay_tb();$/;"	kind:module	line:6	language:SystemVerilog	roles:def
+dynamic_delay_tb.DerivedClocks	dynamic_delay_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.E_DerivedClocks	dynamic_delay_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.M	dynamic_delay_tb.sv	/^) M ($/;"	kind:instance	line:85	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.RandomNumber1	dynamic_delay_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:55	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.cd1	dynamic_delay_tb.sv	/^) cd1 ($/;"	kind:instance	line:38	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.clk200	dynamic_delay_tb.sv	/^logic clk200;$/;"	kind:register	line:8	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.ed1	dynamic_delay_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:46	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.nrst	dynamic_delay_tb.sv	/^logic nrst;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.nrst_once	dynamic_delay_tb.sv	/^logic nrst_once;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.rng1	dynamic_delay_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:56	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.rst	dynamic_delay_tb.sv	/^logic rst;$/;"	kind:register	line:15	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.rst_once	dynamic_delay_tb.sv	/^logic rst_once;$/;"	kind:register	line:25	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.sel	dynamic_delay_tb.sv	/^logic [3:0] sel = '0;$/;"	kind:register	line:68	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+dynamic_delay_tb.sv	dynamic_delay_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:95	epoch:1625361590
+dynamic_delay_tb.test_data	dynamic_delay_tb.sv	/^logic [5:0] test_data = '0;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def	extras:qualified
+e1	pos2bin_tb.sv	/^logic e1,e2;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+e2	pos2bin_tb.sv	/^logic e1,e2;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+ed1	adder_tree_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+ed1	delay_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:delay_tb	roles:def
+ed1	dynamic_delay_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:46	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+ed1	fast_counter_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+ed1	gray_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:gray_tb	roles:def
+ed1	leave_one_hot_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+ed1	main_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:main_tb	roles:def
+ed1	pdm_modulator_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+ed1	prbs_gen_chk_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:64	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+ed1	preview_fifo_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+ed1	pulse_gen_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+ed1	pulse_stretch_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+ed1	pwm_modulator_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+ed1	spi_master_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:71	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+ed1	uart_tx_rx_shifter_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+ed2	spi_master_tb.sv	/^edge_detect ed2[3:0] ($/;"	kind:instance	line:214	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+edge_detect_tb	edge_detect_tb.sv	/^module edge_detect_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+edge_detect_tb.CD1	edge_detect_tb.sv	/^) CD1 ($/;"	kind:instance	line:50	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.DerivedClocks	edge_detect_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:47	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.ED1	edge_detect_tb.sv	/^edge_detect ED1[15:0] ($/;"	kind:instance	line:74	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.RNG1	edge_detect_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.RandomNumber1	edge_detect_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.clk200	edge_detect_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.nrst	edge_detect_tb.sv	/^logic nrst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.nrst_once	edge_detect_tb.sv	/^logic nrst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.rst	edge_detect_tb.sv	/^logic rst;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.rst_once	edge_detect_tb.sv	/^logic rst_once;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.start	edge_detect_tb.sv	/^logic start;$/;"	kind:register	line:65	language:SystemVerilog	scope:module:edge_detect_tb	roles:def	extras:qualified
+edge_detect_tb.sv	edge_detect_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:84	epoch:1625361590
+empty	preview_fifo_tb.sv	/^logic [1:0] empty;$/;"	kind:register	line:127	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+encoder_tb	encoder_tb.v	/^module encoder_tb();$/;"	kind:module	line:12	language:Verilog	roles:def
+encoder_tb.CD1	encoder_tb.v	/^ClkDivider CD1 ($/;"	kind:instance	line:34	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.DerivedClocks	encoder_tb.v	/^wire [31:0] DerivedClocks;$/;"	kind:net	line:33	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.E1	encoder_tb.v	/^encoder E1($/;"	kind:instance	line:74	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.ED1	encoder_tb.v	/^EdgeDetect ED1 ($/;"	kind:instance	line:41	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.E_DerivedClocks	encoder_tb.v	/^wire [31:0] E_DerivedClocks;$/;"	kind:net	line:40	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.RNG1	encoder_tb.v	/^c_rand RNG1 ($/;"	kind:instance	line:58	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.RandomNumber1	encoder_tb.v	/^wire [15:0] RandomNumber1;$/;"	kind:net	line:51	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.clk200	encoder_tb.v	/^reg clk200;$/;"	kind:register	line:14	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.m	encoder_tb.v	/^wire p,m;$/;"	kind:net	line:73	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.nrst	encoder_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.p	encoder_tb.v	/^wire p,m;$/;"	kind:net	line:73	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.rst	encoder_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.rst_once	encoder_tb.v	/^reg rst_once;$/;"	kind:register	line:52	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.start	encoder_tb.v	/^reg start;$/;"	kind:register	line:65	language:Verilog	scope:module:encoder_tb	roles:def	extras:qualified
+encoder_tb.v	encoder_tb.v	1;"	kind:file	line:1	language:Verilog	roles:def	extras:inputFile	end:83	epoch:1625361590
+fast_counter_tb	fast_counter_tb.sv	/^module fast_counter_tb();$/;"	kind:module	line:14	language:SystemVerilog	roles:def
+fast_counter_tb.DerivedClocks	fast_counter_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.E_DerivedClocks	fast_counter_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.RandomNumber1	fast_counter_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.WIDTH	fast_counter_tb.sv	/^`define WIDTH 14$/;"	kind:constant	line:137	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.cd1	fast_counter_tb.sv	/^) cd1 ($/;"	kind:instance	line:59	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.clk200	fast_counter_tb.sv	/^logic clk200;$/;"	kind:register	line:16	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.clk33	fast_counter_tb.sv	/^logic clk33;$/;"	kind:register	line:24	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.dec	fast_counter_tb.sv	/^logic dec = 1'b0;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.ed1	fast_counter_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.fc	fast_counter_tb.sv	/^) fc ($/;"	kind:instance	line:142	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.inc	fast_counter_tb.sv	/^logic inc = 1'b0;$/;"	kind:register	line:103	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.nrst	fast_counter_tb.sv	/^logic nrst;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.nrst_once	fast_counter_tb.sv	/^logic nrst_once;$/;"	kind:register	line:53	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.q	fast_counter_tb.sv	/^logic [`WIDTH-1:0] q;$/;"	kind:register	line:139	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.q_d1	fast_counter_tb.sv	/^logic [`WIDTH-1:0] q_d1 = '0;$/;"	kind:register	line:153	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.rng1	fast_counter_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:77	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.rng2	fast_counter_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:85	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.rst	fast_counter_tb.sv	/^logic rst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.rst_once	fast_counter_tb.sv	/^logic rst_once;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.seq_cntr	fast_counter_tb.sv	/^logic [7:0] seq_cntr = '0;$/;"	kind:register	line:107	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.set	fast_counter_tb.sv	/^logic set = 1'b0;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.start	fast_counter_tb.sv	/^logic start;$/;"	kind:register	line:93	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.success_dec	fast_counter_tb.sv	/^logic success_dec;$/;"	kind:register	line:162	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.success_inc	fast_counter_tb.sv	/^logic success_inc;$/;"	kind:register	line:164	language:SystemVerilog	scope:module:fast_counter_tb	roles:def	extras:qualified
+fast_counter_tb.sv	fast_counter_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:168	epoch:1625361590
+fc	fast_counter_tb.sv	/^) fc ($/;"	kind:instance	line:142	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+fifo_tb	fifo_tb.sv	/^module fifo_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+fifo_tb.CD1	fifo_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.DerivedClocks	fifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.ED1	fifo_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.E_DerivedClocks	fifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.FF1	fifo_tb.sv	/^) FF1 ($/;"	kind:instance	line:93	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.RNG1	fifo_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.RandomNumber1	fifo_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.clk200	fifo_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.nrst	fifo_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.nrst_once	fifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.read	fifo_tb.sv	/^logic read;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.rst	fifo_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.rst_once	fifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:fifo_tb	roles:def	extras:qualified
+fifo_tb.sv	fifo_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:109	epoch:1625361590
+full	preview_fifo_tb.sv	/^logic [1:0] full;$/;"	kind:register	line:128	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+gen	prbs_gen_chk_tb.sv	/^) gen ($/;"	kind:instance	line:98	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+gray	gray_tb.sv	/^logic [`WIDTH-1:0] gray;$/;"	kind:register	line:96	language:SystemVerilog	scope:module:gray_tb	roles:def
+gray_tb	gray_tb.sv	/^module gray_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+gray_tb.BG1	gray_tb.sv	/^) BG1 ($/;"	kind:instance	line:99	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.DerivedClocks	gray_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.E_DerivedClocks	gray_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.GB1	gray_tb.sv	/^) GB1 ($/;"	kind:instance	line:107	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.RandomNumber1	gray_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.WIDTH	gray_tb.sv	/^`define WIDTH 32$/;"	kind:constant	line:84	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.bin	gray_tb.sv	/^logic [`WIDTH-1:0] bin = 0;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.bin2	gray_tb.sv	/^logic [`WIDTH-1:0] bin2;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.cd1	gray_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.clk200	gray_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.ed1	gray_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.gray	gray_tb.sv	/^logic [`WIDTH-1:0] gray;$/;"	kind:register	line:96	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.nrst	gray_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.nrst_once	gray_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.rng1	gray_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.rst	gray_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.rst_once	gray_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.start	gray_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:gray_tb	roles:def	extras:qualified
+gray_tb.sv	gray_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:116	epoch:1625361590
+in	reverse_dimensions_tb.sv	/^logic [1:0][7:0] in;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+in_high_width	pulse_gen_tb.sv	/^logic [31:0] in_high_width = '0;$/;"	kind:register	line:132	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+inc	fast_counter_tb.sv	/^logic inc = 1'b0;$/;"	kind:register	line:103	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+inpos	pos2bin_tb.sv	/^logic [15:0] inpos;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+insert_err_multi_hot	pos2bin_tb.sv	/^logic insert_err_multi_hot;$/;"	kind:register	line:93	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+insert_err_no_hot	pos2bin_tb.sv	/^logic insert_err_no_hot;$/;"	kind:register	line:96	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+leave_one_hot_tb	leave_one_hot_tb.sv	/^module leave_one_hot_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+leave_one_hot_tb.DerivedClocks	leave_one_hot_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.E_DerivedClocks	leave_one_hot_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.M	leave_one_hot_tb.sv	/^) M ($/;"	kind:instance	line:86	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.RandomNumber1	leave_one_hot_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.cd1	leave_one_hot_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.clk200	leave_one_hot_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.ed1	leave_one_hot_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.nrst	leave_one_hot_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.nrst_once	leave_one_hot_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.rng1	leave_one_hot_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.rst	leave_one_hot_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.rst_once	leave_one_hot_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.start	leave_one_hot_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def	extras:qualified
+leave_one_hot_tb.sv	leave_one_hot_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:91	epoch:1625361590
+lifo_tb	lifo_tb.sv	/^module lifo_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+lifo_tb.CD1	lifo_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.DerivedClocks	lifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.ED1	lifo_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.E_DerivedClocks	lifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.LF1	lifo_tb.sv	/^) LF1 ($/;"	kind:instance	line:93	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.RNG1	lifo_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.RandomNumber1	lifo_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.clk200	lifo_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.nrst	lifo_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.nrst_once	lifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.read	lifo_tb.sv	/^logic read;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.rst	lifo_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.rst_once	lifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:lifo_tb	roles:def	extras:qualified
+lifo_tb.sv	lifo_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:109	epoch:1625361590
+m	encoder_tb.v	/^wire p,m;$/;"	kind:net	line:73	language:Verilog	scope:module:encoder_tb	roles:def
+main_tb	main_tb.sv	/^module main_tb();$/;"	kind:module	line:14	language:SystemVerilog	roles:def
+main_tb.DerivedClocks	main_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.E_DerivedClocks	main_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.M	main_tb.sv	/^Main M (    \/\/ module under test$/;"	kind:instance	line:104	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.RandomNumber1	main_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:77	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.adc1_seq_cntr	main_tb.sv	/^reg [7:0] adc1_seq_cntr = 0;$/;"	kind:register	line:114	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.cd1	main_tb.sv	/^) cd1 ($/;"	kind:instance	line:60	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.clk200	main_tb.sv	/^logic clk200;$/;"	kind:register	line:16	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.clk33	main_tb.sv	/^logic clk33;$/;"	kind:register	line:24	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.ed1	main_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.nrst	main_tb.sv	/^logic nrst;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.nrst_once	main_tb.sv	/^logic nrst_once;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.out1	main_tb.sv	/^wire out1,out2;$/;"	kind:net	line:103	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.out2	main_tb.sv	/^wire out1,out2;$/;"	kind:net	line:103	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.rng1	main_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:78	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.rng2	main_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:86	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.rst	main_tb.sv	/^logic rst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.rst_once	main_tb.sv	/^logic rst_once;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.start	main_tb.sv	/^logic start;$/;"	kind:register	line:94	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+main_tb.sv	main_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:144	epoch:1625361590
+main_tb.test_data	main_tb.sv	/^reg [15:0] test_data = 16'b1010_1100_1100_1111;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:main_tb	roles:def	extras:qualified
+ncs1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+ncs2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+ncs3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+ncs4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+nrst	ActionBurst2_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+nrst	ActionBurst_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:ActionBurst_tb	roles:def
+nrst	UartTx_UartRx_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:36	language:Verilog	roles:def
+nrst	adder_tree_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+nrst	bin2pos_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+nrst	debounce_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:debounce_tb	roles:def
+nrst	delay_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:delay_tb	roles:def
+nrst	dynamic_delay_tb.sv	/^logic nrst;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+nrst	edge_detect_tb.sv	/^logic nrst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+nrst	encoder_tb.v	/^wire nrst = ~rst;$/;"	kind:net	line:31	language:Verilog	scope:module:encoder_tb	roles:def
+nrst	fast_counter_tb.sv	/^logic nrst;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+nrst	fifo_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:fifo_tb	roles:def
+nrst	gray_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:gray_tb	roles:def
+nrst	leave_one_hot_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+nrst	lifo_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:lifo_tb	roles:def
+nrst	main_tb.sv	/^logic nrst;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:main_tb	roles:def
+nrst	pdm_modulator_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+nrst	pos2bin_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+nrst	prbs_gen_chk_tb.sv	/^logic nrst;$/;"	kind:register	line:40	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+nrst	preview_fifo_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+nrst	pulse_gen_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+nrst	pulse_stretch_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+nrst	pwm_modulator_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+nrst	reverse_dimensions_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+nrst	reverse_vector_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+nrst	spi_master_tb.sv	/^logic nrst;$/;"	kind:register	line:47	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+nrst	uart_tx_rx_shifter_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+nrst_once	ActionBurst2_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+nrst_once	ActionBurst_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:ActionBurst_tb	roles:def
+nrst_once	UartTx_UartRx_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:47	language:Verilog	roles:def
+nrst_once	adder_tree_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+nrst_once	bin2pos_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+nrst_once	debounce_tb.v	/^wire nrst_once = ~rst_once;$/;"	kind:net	line:42	language:Verilog	scope:module:debounce_tb	roles:def
+nrst_once	delay_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:delay_tb	roles:def
+nrst_once	dynamic_delay_tb.sv	/^logic nrst_once;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+nrst_once	edge_detect_tb.sv	/^logic nrst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+nrst_once	fast_counter_tb.sv	/^logic nrst_once;$/;"	kind:register	line:53	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+nrst_once	fifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:fifo_tb	roles:def
+nrst_once	gray_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:gray_tb	roles:def
+nrst_once	leave_one_hot_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+nrst_once	lifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:lifo_tb	roles:def
+nrst_once	main_tb.sv	/^logic nrst_once;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:main_tb	roles:def
+nrst_once	pdm_modulator_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+nrst_once	pos2bin_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+nrst_once	prbs_gen_chk_tb.sv	/^logic nrst_once;$/;"	kind:register	line:50	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+nrst_once	preview_fifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+nrst_once	pulse_gen_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+nrst_once	pulse_stretch_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+nrst_once	pwm_modulator_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+nrst_once	reverse_dimensions_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+nrst_once	reverse_vector_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+nrst_once	spi_master_tb.sv	/^logic nrst_once;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+nrst_once	uart_tx_rx_shifter_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+od0	preview_fifo_tb.sv	/^logic [7:0] od0;$/;"	kind:register	line:131	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+od1	preview_fifo_tb.sv	/^logic [7:0] od1;$/;"	kind:register	line:132	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+oe1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+oe2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+oe3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+oe4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+out	ActionBurst2_tb.v	/^wire out;$/;"	kind:net	line:76	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+out	ActionBurst_tb.v	/^wire out;$/;"	kind:net	line:76	language:Verilog	scope:module:ActionBurst_tb	roles:def
+out	pulse_gen_tb.sv	/^logic out;$/;"	kind:register	line:133	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+out	reverse_dimensions_tb.sv	/^logic [7:0][1:0] out;$/;"	kind:register	line:90	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+out1	main_tb.sv	/^wire out1,out2;$/;"	kind:net	line:103	language:SystemVerilog	scope:module:main_tb	roles:def
+out2	main_tb.sv	/^wire out1,out2;$/;"	kind:net	line:103	language:SystemVerilog	scope:module:main_tb	roles:def
+out_ed	pulse_gen_tb.sv	/^edge_detect out_ed ($/;"	kind:instance	line:136	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+out_rise	pulse_gen_tb.sv	/^logic out_rise;$/;"	kind:register	line:134	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+p	encoder_tb.v	/^wire p,m;$/;"	kind:net	line:73	language:Verilog	scope:module:encoder_tb	roles:def
+pdm1	pdm_modulator_tb.sv	/^) pdm1 ($/;"	kind:instance	line:123	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+pdm_modulator_tb	pdm_modulator_tb.sv	/^module pdm_modulator_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+pdm_modulator_tb.DerivedClocks	pdm_modulator_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.E_DerivedClocks	pdm_modulator_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.MOD_WIDTH	pdm_modulator_tb.sv	/^localparam MOD_WIDTH = 5;$/;"	kind:constant	line:100	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.RandomNumber1	pdm_modulator_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.cd1	pdm_modulator_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.clk200	pdm_modulator_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.clk33	pdm_modulator_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.ed1	pdm_modulator_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.nrst	pdm_modulator_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.nrst_once	pdm_modulator_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.pdm1	pdm_modulator_tb.sv	/^) pdm1 ($/;"	kind:instance	line:123	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.rng1	pdm_modulator_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.rng2	pdm_modulator_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.rst	pdm_modulator_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.rst_once	pdm_modulator_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.sin_table	pdm_modulator_tb.sv	/^logic [31:0][MOD_WIDTH-1:0] sin_table =$/;"	kind:register	line:103	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.sp	pdm_modulator_tb.sv	/^logic [MOD_WIDTH-1:0] sp = '0;$/;"	kind:register	line:102	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.start	pdm_modulator_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def	extras:qualified
+pdm_modulator_tb.sv	pdm_modulator_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:135	epoch:1625361590
+pg1	pulse_gen_tb.sv	/^) pg1 ($/;"	kind:instance	line:119	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+pos	bin2pos_tb.sv	/^logic [15:0] pos;$/;"	kind:register	line:85	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+pos	pos2bin_tb.sv	/^logic [15:0] pos;$/;"	kind:register	line:85	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+pos2bin_tb	pos2bin_tb.sv	/^module pos2bin_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+pos2bin_tb.BP1	pos2bin_tb.sv	/^) BP1 ($/;"	kind:instance	line:88	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.CD1	pos2bin_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.DerivedClocks	pos2bin_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.ED1	pos2bin_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.E_DerivedClocks	pos2bin_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.PB1	pos2bin_tb.sv	/^) PB1 ($/;"	kind:instance	line:116	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.RNG1	pos2bin_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.RandomNumber1	pos2bin_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.bin2	pos2bin_tb.sv	/^logic [3:0] bin2;$/;"	kind:register	line:112	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.clk200	pos2bin_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.e1	pos2bin_tb.sv	/^logic e1,e2;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.e2	pos2bin_tb.sv	/^logic e1,e2;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.inpos	pos2bin_tb.sv	/^logic [15:0] inpos;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.insert_err_multi_hot	pos2bin_tb.sv	/^logic insert_err_multi_hot;$/;"	kind:register	line:93	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.insert_err_no_hot	pos2bin_tb.sv	/^logic insert_err_no_hot;$/;"	kind:register	line:96	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.nrst	pos2bin_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.nrst_once	pos2bin_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.pos	pos2bin_tb.sv	/^logic [15:0] pos;$/;"	kind:register	line:85	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.rst	pos2bin_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.rst_once	pos2bin_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.start	pos2bin_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:pos2bin_tb	roles:def	extras:qualified
+pos2bin_tb.sv	pos2bin_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:124	epoch:1625361590
+prbs_gen_chk_tb	prbs_gen_chk_tb.sv	/^module prbs_gen_chk_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+prbs_gen_chk_tb.DerivedClocks	prbs_gen_chk_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:53	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.E_DerivedClocks	prbs_gen_chk_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:63	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.RandomNumber1	prbs_gen_chk_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:73	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.cd1	prbs_gen_chk_tb.sv	/^) cd1 ($/;"	kind:instance	line:56	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.checker	prbs_gen_chk_tb.sv	/^) checker ($/;"	kind:instance	line:112	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.clk200	prbs_gen_chk_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.clk33	prbs_gen_chk_tb.sv	/^logic clk33;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.d1	prbs_gen_chk_tb.sv	/^logic [31:0] d1;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.ed1	prbs_gen_chk_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:64	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.gen	prbs_gen_chk_tb.sv	/^) gen ($/;"	kind:instance	line:98	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.nrst	prbs_gen_chk_tb.sv	/^logic nrst;$/;"	kind:register	line:40	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.nrst_once	prbs_gen_chk_tb.sv	/^logic nrst_once;$/;"	kind:register	line:50	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.rng1	prbs_gen_chk_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:74	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.rst	prbs_gen_chk_tb.sv	/^logic rst;$/;"	kind:register	line:28	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.rst_once	prbs_gen_chk_tb.sv	/^logic rst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.start	prbs_gen_chk_tb.sv	/^logic start;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def	extras:qualified
+prbs_gen_chk_tb.sv	prbs_gen_chk_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:121	epoch:1625361590
+preview_fifo_tb	preview_fifo_tb.sv	/^module preview_fifo_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+preview_fifo_tb.DerivedClocks	preview_fifo_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.E_DerivedClocks	preview_fifo_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.M	preview_fifo_tb.sv	/^) M ($/;"	kind:instance	line:184	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.R_2WORD_ENA	preview_fifo_tb.sv	/^`define R_2WORD_ENA = yes;$/;"	kind:constant	line:102	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.R_ENA	preview_fifo_tb.sv	/^`define R_ENA = yes;$/;"	kind:constant	line:101	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.RandomNumber1	preview_fifo_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.RandomNumber1_d1	preview_fifo_tb.sv	/^logic [31:0] RandomNumber1_d1;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.W_2WORD_ENA	preview_fifo_tb.sv	/^`define W_2WORD_ENA = yes;$/;"	kind:constant	line:99	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.W_ENA	preview_fifo_tb.sv	/^`define W_ENA = yes;$/;"	kind:constant	line:98	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.cd1	preview_fifo_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.clk200	preview_fifo_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.clk33	preview_fifo_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.clk400	preview_fifo_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.dis_writes	preview_fifo_tb.sv	/^logic dis_writes = 1'b0;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.ed1	preview_fifo_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.empty	preview_fifo_tb.sv	/^logic [1:0] empty;$/;"	kind:register	line:127	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.full	preview_fifo_tb.sv	/^logic [1:0] full;$/;"	kind:register	line:128	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.nrst	preview_fifo_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.nrst_once	preview_fifo_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.od0	preview_fifo_tb.sv	/^logic [7:0] od0;$/;"	kind:register	line:131	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.od1	preview_fifo_tb.sv	/^logic [7:0] od1;$/;"	kind:register	line:132	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.r_two	preview_fifo_tb.sv	/^logic r_two;$/;"	kind:register	line:176	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.r_word	preview_fifo_tb.sv	/^logic r_word;$/;"	kind:register	line:174	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.rdreq	preview_fifo_tb.sv	/^logic [2:0] rdreq;$/;"	kind:register	line:134	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.rng1	preview_fifo_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.rng2	preview_fifo_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.rst	preview_fifo_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.rst_once	preview_fifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.sv	preview_fifo_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:204	epoch:1625361590
+preview_fifo_tb.usedw	preview_fifo_tb.sv	/^logic [5:0] usedw;$/;"	kind:register	line:129	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.w_two	preview_fifo_tb.sv	/^logic w_two;$/;"	kind:register	line:171	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.w_word	preview_fifo_tb.sv	/^logic w_word;$/;"	kind:register	line:169	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+preview_fifo_tb.wrreq	preview_fifo_tb.sv	/^logic [2:0] wrreq;$/;"	kind:register	line:106	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def	extras:qualified
+ps1	pulse_stretch_tb.sv	/^) ps1 ($/;"	kind:instance	line:87	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+ps2	pulse_stretch_tb.sv	/^) ps2 ($/;"	kind:instance	line:97	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+pulse_gen_tb	pulse_gen_tb.sv	/^module pulse_gen_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+pulse_gen_tb.DerivedClocks	pulse_gen_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.E_DerivedClocks	pulse_gen_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.RandomNumber1	pulse_gen_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.cd1	pulse_gen_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.clk200	pulse_gen_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.clk33	pulse_gen_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.ed1	pulse_gen_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.in_high_width	pulse_gen_tb.sv	/^logic [31:0] in_high_width = '0;$/;"	kind:register	line:132	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.nrst	pulse_gen_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.nrst_once	pulse_gen_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.out	pulse_gen_tb.sv	/^logic out;$/;"	kind:register	line:133	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.out_ed	pulse_gen_tb.sv	/^edge_detect out_ed ($/;"	kind:instance	line:136	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.out_rise	pulse_gen_tb.sv	/^logic out_rise;$/;"	kind:register	line:134	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.pg1	pulse_gen_tb.sv	/^) pg1 ($/;"	kind:instance	line:119	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.rng1	pulse_gen_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.rng2	pulse_gen_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.rst	pulse_gen_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.rst_once	pulse_gen_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.start	pulse_gen_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def	extras:qualified
+pulse_gen_tb.sv	pulse_gen_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:170	epoch:1625361590
+pulse_stretch_tb	pulse_stretch_tb.sv	/^module pulse_stretch_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+pulse_stretch_tb.DerivedClocks	pulse_stretch_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.E_DerivedClocks	pulse_stretch_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:56	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.RandomNumber1	pulse_stretch_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:66	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.cd1	pulse_stretch_tb.sv	/^) cd1 ($/;"	kind:instance	line:49	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.clk200	pulse_stretch_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.ed1	pulse_stretch_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.nrst	pulse_stretch_tb.sv	/^logic nrst;$/;"	kind:register	line:33	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.nrst_once	pulse_stretch_tb.sv	/^logic nrst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.ps1	pulse_stretch_tb.sv	/^) ps1 ($/;"	kind:instance	line:87	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.ps2	pulse_stretch_tb.sv	/^) ps2 ($/;"	kind:instance	line:97	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.rng1	pulse_stretch_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.rst	pulse_stretch_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.rst_once	pulse_stretch_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.start	pulse_stretch_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def	extras:qualified
+pulse_stretch_tb.sv	pulse_stretch_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:104	epoch:1625361590
+pwm1	pwm_modulator_tb.sv	/^) pwm1 ($/;"	kind:instance	line:123	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+pwm_modulator_tb	pwm_modulator_tb.sv	/^module pwm_modulator_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+pwm_modulator_tb.DerivedClocks	pwm_modulator_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.E_DerivedClocks	pwm_modulator_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.MOD_WIDTH	pwm_modulator_tb.sv	/^localparam MOD_WIDTH = 5;$/;"	kind:constant	line:100	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.RandomNumber1	pwm_modulator_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.cd1	pwm_modulator_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.clk200	pwm_modulator_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.clk33	pwm_modulator_tb.sv	/^logic clk33;$/;"	kind:register	line:22	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.ed1	pwm_modulator_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.nrst	pwm_modulator_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.nrst_once	pwm_modulator_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.pwm1	pwm_modulator_tb.sv	/^) pwm1 ($/;"	kind:instance	line:123	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.rng1	pwm_modulator_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.rng2	pwm_modulator_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.rst	pwm_modulator_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.rst_once	pwm_modulator_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.sin_table	pwm_modulator_tb.sv	/^logic [31:0][MOD_WIDTH-1:0] sin_table =$/;"	kind:register	line:103	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.sp	pwm_modulator_tb.sv	/^logic [MOD_WIDTH-1:0] sp = '0;$/;"	kind:register	line:102	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.start	pwm_modulator_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.strobe	pwm_modulator_tb.sv	/^logic strobe;$/;"	kind:register	line:109	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def	extras:qualified
+pwm_modulator_tb.sv	pwm_modulator_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:135	epoch:1625361590
+q	BCD_Counter_tb.v	/^	wire [3:0]q;$/;"	kind:net	line:12	language:Verilog	scope:module:BCD_Counter_tb	roles:def
+q	BCD_Counter_top_tb.v	/^	wire [11:0]q;$/;"	kind:net	line:12	language:Verilog	scope:module:BCD_Counter_top_tb	roles:def
+q	fast_counter_tb.sv	/^logic [`WIDTH-1:0] q;$/;"	kind:register	line:139	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+q_d1	fast_counter_tb.sv	/^logic [`WIDTH-1:0] q_d1 = '0;$/;"	kind:register	line:153	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+r_two	preview_fifo_tb.sv	/^logic r_two;$/;"	kind:register	line:176	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+r_word	preview_fifo_tb.sv	/^logic r_word;$/;"	kind:register	line:174	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+rdreq	preview_fifo_tb.sv	/^logic [2:0] rdreq;$/;"	kind:register	line:134	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+read	fifo_tb.sv	/^logic read;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:fifo_tb	roles:def
+read	lifo_tb.sv	/^logic read;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:lifo_tb	roles:def
+reverse_dimensions_tb	reverse_dimensions_tb.sv	/^module reverse_dimensions_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+reverse_dimensions_tb.CD1	reverse_dimensions_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.DerivedClocks	reverse_dimensions_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.ED1	reverse_dimensions_tb.sv	/^edge_detect ED1[31:0] ($/;"	kind:instance	line:59	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.E_DerivedClocks	reverse_dimensions_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:58	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.RD1	reverse_dimensions_tb.sv	/^) RD1 ($/;"	kind:instance	line:94	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.RNG1	reverse_dimensions_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:69	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.RandomNumber1	reverse_dimensions_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:68	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.clk200	reverse_dimensions_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.in	reverse_dimensions_tb.sv	/^logic [1:0][7:0] in;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.nrst	reverse_dimensions_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.nrst_once	reverse_dimensions_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.out	reverse_dimensions_tb.sv	/^logic [7:0][1:0] out;$/;"	kind:register	line:90	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.rst	reverse_dimensions_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.rst_once	reverse_dimensions_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.start	reverse_dimensions_tb.sv	/^logic start;$/;"	kind:register	line:77	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def	extras:qualified
+reverse_dimensions_tb.sv	reverse_dimensions_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:99	epoch:1625361590
+reverse_vector_tb	reverse_vector_tb.sv	/^module reverse_vector_tb();$/;"	kind:module	line:12	language:SystemVerilog	roles:def
+reverse_vector_tb.CD1	reverse_vector_tb.sv	/^) CD1 ($/;"	kind:instance	line:51	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.DerivedClocks	reverse_vector_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:48	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.ED1	reverse_vector_tb.sv	/^EdgeDetect ED1[31:0] ($/;"	kind:instance	line:58	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.E_DerivedClocks	reverse_vector_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.RNG1	reverse_vector_tb.sv	/^c_rand RNG1 ($/;"	kind:instance	line:68	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.RV1	reverse_vector_tb.sv	/^) RV1 ($/;"	kind:instance	line:89	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.RV2	reverse_vector_tb.sv	/^) RV2 ($/;"	kind:instance	line:98	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.RandomNumber1	reverse_vector_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.clk200	reverse_vector_tb.sv	/^logic clk200;$/;"	kind:register	line:14	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.nrst	reverse_vector_tb.sv	/^logic nrst;$/;"	kind:register	line:32	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.nrst_once	reverse_vector_tb.sv	/^logic nrst_once;$/;"	kind:register	line:45	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.reversed1	reverse_vector_tb.sv	/^logic [14:0] reversed1;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.reversed2	reverse_vector_tb.sv	/^logic [13:0] reversed2;$/;"	kind:register	line:95	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.rst	reverse_vector_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.rst_once	reverse_vector_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.start	reverse_vector_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def	extras:qualified
+reverse_vector_tb.sv	reverse_vector_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:103	epoch:1625361590
+reversed1	reverse_vector_tb.sv	/^logic [14:0] reversed1;$/;"	kind:register	line:86	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+reversed2	reverse_vector_tb.sv	/^logic [13:0] reversed2;$/;"	kind:register	line:95	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+rng1	adder_tree_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+rng1	delay_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:delay_tb	roles:def
+rng1	dynamic_delay_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:56	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+rng1	fast_counter_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:77	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+rng1	gray_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:gray_tb	roles:def
+rng1	leave_one_hot_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+rng1	main_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:78	language:SystemVerilog	scope:module:main_tb	roles:def
+rng1	pdm_modulator_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+rng1	prbs_gen_chk_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:74	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+rng1	preview_fifo_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+rng1	pulse_gen_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+rng1	pulse_stretch_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:67	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+rng1	pwm_modulator_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+rng1	spi_master_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:81	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+rng1	uart_tx_rx_shifter_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+rng2	delay_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:delay_tb	roles:def
+rng2	fast_counter_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:85	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+rng2	main_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:86	language:SystemVerilog	scope:module:main_tb	roles:def
+rng2	pdm_modulator_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+rng2	preview_fifo_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+rng2	pulse_gen_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+rng2	pwm_modulator_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+rng2	uart_tx_rx_shifter_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+rst	ActionBurst2_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+rst	ActionBurst_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:ActionBurst_tb	roles:def
+rst	UartTx_UartRx_tb.v	/^reg rst;$/;"	kind:register	line:26	language:Verilog	roles:def
+rst	adder_tree_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+rst	bin2pos_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+rst	debounce_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:debounce_tb	roles:def
+rst	delay_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:delay_tb	roles:def
+rst	dynamic_delay_tb.sv	/^logic rst;$/;"	kind:register	line:15	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+rst	edge_detect_tb.sv	/^logic rst;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+rst	encoder_tb.v	/^reg rst;$/;"	kind:register	line:21	language:Verilog	scope:module:encoder_tb	roles:def
+rst	fast_counter_tb.sv	/^logic rst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+rst	fifo_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:fifo_tb	roles:def
+rst	gray_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:gray_tb	roles:def
+rst	leave_one_hot_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+rst	lifo_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:lifo_tb	roles:def
+rst	main_tb.sv	/^logic rst;$/;"	kind:register	line:31	language:SystemVerilog	scope:module:main_tb	roles:def
+rst	pdm_modulator_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+rst	pos2bin_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+rst	prbs_gen_chk_tb.sv	/^logic rst;$/;"	kind:register	line:28	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+rst	preview_fifo_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+rst	pulse_gen_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+rst	pulse_stretch_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+rst	pwm_modulator_tb.sv	/^logic rst;$/;"	kind:register	line:29	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+rst	reverse_dimensions_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+rst	reverse_vector_tb.sv	/^logic rst;$/;"	kind:register	line:21	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+rst	spi_master_tb.sv	/^logic rst;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+rst	uart_tx_rx_shifter_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+rst_once	ActionBurst2_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+rst_once	ActionBurst_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:ActionBurst_tb	roles:def
+rst_once	UartTx_UartRx_tb.v	/^reg rst_once;$/;"	kind:register	line:38	language:Verilog	roles:def
+rst_once	adder_tree_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+rst_once	bin2pos_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+rst_once	debounce_tb.v	/^reg rst_once;$/;"	kind:register	line:33	language:Verilog	scope:module:debounce_tb	roles:def
+rst_once	delay_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:delay_tb	roles:def
+rst_once	dynamic_delay_tb.sv	/^logic rst_once;$/;"	kind:register	line:25	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+rst_once	edge_detect_tb.sv	/^logic rst_once;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+rst_once	encoder_tb.v	/^reg rst_once;$/;"	kind:register	line:52	language:Verilog	scope:module:encoder_tb	roles:def
+rst_once	fast_counter_tb.sv	/^logic rst_once;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+rst_once	fifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:fifo_tb	roles:def
+rst_once	gray_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:gray_tb	roles:def
+rst_once	leave_one_hot_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+rst_once	lifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:lifo_tb	roles:def
+rst_once	main_tb.sv	/^logic rst_once;$/;"	kind:register	line:46	language:SystemVerilog	scope:module:main_tb	roles:def
+rst_once	pdm_modulator_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+rst_once	pos2bin_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+rst_once	prbs_gen_chk_tb.sv	/^logic rst_once;$/;"	kind:register	line:43	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+rst_once	preview_fifo_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+rst_once	pulse_gen_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+rst_once	pulse_stretch_tb.sv	/^logic rst_once;$/;"	kind:register	line:36	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+rst_once	pwm_modulator_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+rst_once	reverse_dimensions_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+rst_once	reverse_vector_tb.sv	/^logic rst_once;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+rst_once	spi_master_tb.sv	/^logic rst_once;$/;"	kind:register	line:50	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+rst_once	uart_tx_rx_shifter_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+rx1	uart_tx_rx_shifter_tb.sv	/^) rx1 ($/;"	kind:instance	line:129	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+sel	dynamic_delay_tb.sv	/^logic [3:0] sel = '0;$/;"	kind:register	line:68	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+seq_cntr	fast_counter_tb.sv	/^logic [7:0] seq_cntr = '0;$/;"	kind:register	line:107	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+serial_data	uart_tx_rx_shifter_tb.sv	/^logic serial_data;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+set	fast_counter_tb.sv	/^logic set = 1'b0;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+sin_table	pdm_modulator_tb.sv	/^logic [31:0][MOD_WIDTH-1:0] sin_table =$/;"	kind:register	line:103	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+sin_table	pwm_modulator_tb.sv	/^logic [31:0][MOD_WIDTH-1:0] sin_table =$/;"	kind:register	line:103	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+sp	pdm_modulator_tb.sv	/^logic [MOD_WIDTH-1:0] sp = '0;$/;"	kind:register	line:102	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+sp	pwm_modulator_tb.sv	/^logic [MOD_WIDTH-1:0] sp = '0;$/;"	kind:register	line:102	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+spi_master_tb	spi_master_tb.sv	/^module spi_master_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+spi_master_tb.DerivedClocks	spi_master_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:60	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.E_DerivedClocks	spi_master_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:70	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.RandomNumber1	spi_master_tb.sv	/^logic [15:0] RandomNumber1;$/;"	kind:register	line:80	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.SM1	spi_master_tb.sv	/^) SM1 ($/;"	kind:instance	line:116	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.SM2	spi_master_tb.sv	/^) SM2 ($/;"	kind:instance	line:141	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.SM3	spi_master_tb.sv	/^) SM3 ($/;"	kind:instance	line:166	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.SM4	spi_master_tb.sv	/^) SM4 ($/;"	kind:instance	line:191	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.cd1	spi_master_tb.sv	/^) cd1 ($/;"	kind:instance	line:63	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk1_pin_fall	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk1_pin_rise	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk200	spi_master_tb.sv	/^logic clk200;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk2_pin_fall	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk2_pin_rise	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk33	spi_master_tb.sv	/^logic clk33;$/;"	kind:register	line:28	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk3_pin_fall	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk3_pin_rise	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk4_pin_fall	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk4_pin_rise	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.clk800	spi_master_tb.sv	/^logic clk800;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.din1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.din2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.din3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.din4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ed1	spi_master_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:71	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ed2	spi_master_tb.sv	/^edge_detect ed2[3:0] ($/;"	kind:instance	line:214	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ncs1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ncs2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ncs3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.ncs4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.nrst	spi_master_tb.sv	/^logic nrst;$/;"	kind:register	line:47	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.nrst_once	spi_master_tb.sv	/^logic nrst_once;$/;"	kind:register	line:57	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.oe1_pin	spi_master_tb.sv	/^logic oe1_pin, ncs1_pin, din1_pin, clk1_pin, clk1_pin_rise, clk1_pin_fall;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.oe2_pin	spi_master_tb.sv	/^logic oe2_pin, ncs2_pin, din2_pin, clk2_pin, clk2_pin_rise, clk2_pin_fall;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.oe3_pin	spi_master_tb.sv	/^logic oe3_pin, ncs3_pin, din3_pin, clk3_pin, clk3_pin_rise, clk3_pin_fall;$/;"	kind:register	line:100	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.oe4_pin	spi_master_tb.sv	/^logic oe4_pin, ncs4_pin, din4_pin, clk4_pin, clk4_pin_rise, clk4_pin_fall;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.rng1	spi_master_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:81	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.rst	spi_master_tb.sv	/^logic rst;$/;"	kind:register	line:35	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.rst_once	spi_master_tb.sv	/^logic rst_once;$/;"	kind:register	line:50	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.start	spi_master_tb.sv	/^logic start;$/;"	kind:register	line:89	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.sv	spi_master_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:271	epoch:1625361590
+spi_master_tb.test1_data	spi_master_tb.sv	/^reg [7:0] test1_data = 8'b1010_0011;$/;"	kind:register	line:103	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.test2_data	spi_master_tb.sv	/^reg [7:0] test2_data = 8'b1010_0011;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.test3_data	spi_master_tb.sv	/^reg [7:0] test3_data = 8'b1010_0011;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+spi_master_tb.test4_data	spi_master_tb.sv	/^reg [7:0] test4_data = 8'b1010_0011;$/;"	kind:register	line:106	language:SystemVerilog	scope:module:spi_master_tb	roles:def	extras:qualified
+start	ActionBurst2_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:ActionBurst2_tb	roles:def
+start	ActionBurst_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:ActionBurst_tb	roles:def
+start	UartTx_UartRx_tb.v	/^reg start;$/;"	kind:register	line:75	language:Verilog	roles:def
+start	adder_tree_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:adder_tree_tb	roles:def
+start	bin2pos_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:bin2pos_tb	roles:def
+start	debounce_tb.v	/^reg start;$/;"	kind:register	line:70	language:Verilog	scope:module:debounce_tb	roles:def
+start	edge_detect_tb.sv	/^logic start;$/;"	kind:register	line:65	language:SystemVerilog	scope:module:edge_detect_tb	roles:def
+start	encoder_tb.v	/^reg start;$/;"	kind:register	line:65	language:Verilog	scope:module:encoder_tb	roles:def
+start	fast_counter_tb.sv	/^logic start;$/;"	kind:register	line:93	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+start	gray_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:gray_tb	roles:def
+start	leave_one_hot_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:leave_one_hot_tb	roles:def
+start	main_tb.sv	/^logic start;$/;"	kind:register	line:94	language:SystemVerilog	scope:module:main_tb	roles:def
+start	pdm_modulator_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pdm_modulator_tb	roles:def
+start	pos2bin_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:pos2bin_tb	roles:def
+start	prbs_gen_chk_tb.sv	/^logic start;$/;"	kind:register	line:82	language:SystemVerilog	scope:module:prbs_gen_chk_tb	roles:def
+start	pulse_gen_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pulse_gen_tb	roles:def
+start	pulse_stretch_tb.sv	/^logic start;$/;"	kind:register	line:75	language:SystemVerilog	scope:module:pulse_stretch_tb	roles:def
+start	pwm_modulator_tb.sv	/^logic start;$/;"	kind:register	line:91	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+start	reverse_dimensions_tb.sv	/^logic start;$/;"	kind:register	line:77	language:SystemVerilog	scope:module:reverse_dimensions_tb	roles:def
+start	reverse_vector_tb.sv	/^logic start;$/;"	kind:register	line:76	language:SystemVerilog	scope:module:reverse_vector_tb	roles:def
+start	spi_master_tb.sv	/^logic start;$/;"	kind:register	line:89	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+start	uart_tx_rx_shifter_tb.sv	/^logic start;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+strobe	pwm_modulator_tb.sv	/^logic strobe;$/;"	kind:register	line:109	language:SystemVerilog	scope:module:pwm_modulator_tb	roles:def
+success	uart_tx_rx_shifter_tb.sv	/^logic success = 1'b1;$/;"	kind:register	line:157	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+success_dec	fast_counter_tb.sv	/^logic success_dec;$/;"	kind:register	line:162	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+success_inc	fast_counter_tb.sv	/^logic success_inc;$/;"	kind:register	line:164	language:SystemVerilog	scope:module:fast_counter_tb	roles:def
+test1_data	spi_master_tb.sv	/^reg [7:0] test1_data = 8'b1010_0011;$/;"	kind:register	line:103	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+test2_data	spi_master_tb.sv	/^reg [7:0] test2_data = 8'b1010_0011;$/;"	kind:register	line:104	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+test3_data	spi_master_tb.sv	/^reg [7:0] test3_data = 8'b1010_0011;$/;"	kind:register	line:105	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+test4_data	spi_master_tb.sv	/^reg [7:0] test4_data = 8'b1010_0011;$/;"	kind:register	line:106	language:SystemVerilog	scope:module:spi_master_tb	roles:def
+test_data	dynamic_delay_tb.sv	/^logic [5:0] test_data = '0;$/;"	kind:register	line:67	language:SystemVerilog	scope:module:dynamic_delay_tb	roles:def
+test_data	main_tb.sv	/^reg [15:0] test_data = 16'b1010_1100_1100_1111;$/;"	kind:register	line:113	language:SystemVerilog	scope:module:main_tb	roles:def
+tx1	uart_tx_rx_shifter_tb.sv	/^) tx1 ($/;"	kind:instance	line:113	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+tx_busy	uart_tx_rx_shifter_tb.sv	/^logic tx_busy;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def
+txbusy_pin	UartTx_UartRx_tb.v	/^wire txbusy_pin;$/;"	kind:net	line:83	language:Verilog	roles:def
+txd_pin	UartTx_UartRx_tb.v	/^wire txd_pin;$/;"	kind:net	line:82	language:Verilog	roles:def
+uart_tx_rx_shifter_tb	uart_tx_rx_shifter_tb.sv	/^module uart_tx_rx_shifter_tb();$/;"	kind:module	line:11	language:SystemVerilog	roles:def
+uart_tx_rx_shifter_tb.DB	uart_tx_rx_shifter_tb.sv	/^`define DB   8$/;"	kind:constant	line:95	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.DerivedClocks	uart_tx_rx_shifter_tb.sv	/^logic [31:0] DerivedClocks;$/;"	kind:register	line:54	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.E_DerivedClocks	uart_tx_rx_shifter_tb.sv	/^logic [31:0] E_DerivedClocks;$/;"	kind:register	line:64	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.RandomNumber1	uart_tx_rx_shifter_tb.sv	/^logic [31:0] RandomNumber1;$/;"	kind:register	line:74	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.SPB	uart_tx_rx_shifter_tb.sv	/^`define SPB  2$/;"	kind:constant	line:96	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.STB	uart_tx_rx_shifter_tb.sv	/^`define STB  1$/;"	kind:constant	line:94	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.cd1	uart_tx_rx_shifter_tb.sv	/^) cd1 ($/;"	kind:instance	line:57	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.clk200	uart_tx_rx_shifter_tb.sv	/^logic clk200;$/;"	kind:register	line:13	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.clk33	uart_tx_rx_shifter_tb.sv	/^logic clk33;$/;"	kind:register	line:27	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.clk400	uart_tx_rx_shifter_tb.sv	/^logic clk400;$/;"	kind:register	line:20	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.data_check_fifo	uart_tx_rx_shifter_tb.sv	/^) data_check_fifo ($/;"	kind:instance	line:142	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.data_rcvd	uart_tx_rx_shifter_tb.sv	/^logic [`DB-1:0] data_rcvd;$/;"	kind:register	line:123	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.data_sent	uart_tx_rx_shifter_tb.sv	/^logic [`DB-1:0] data_sent;$/;"	kind:register	line:138	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.data_valid	uart_tx_rx_shifter_tb.sv	/^logic data_valid;$/;"	kind:register	line:122	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.ed1	uart_tx_rx_shifter_tb.sv	/^edge_detect ed1[31:0] ($/;"	kind:instance	line:65	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.nrst	uart_tx_rx_shifter_tb.sv	/^logic nrst;$/;"	kind:register	line:41	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.nrst_once	uart_tx_rx_shifter_tb.sv	/^logic nrst_once;$/;"	kind:register	line:51	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.rng1	uart_tx_rx_shifter_tb.sv	/^c_rand rng1 ($/;"	kind:instance	line:75	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.rng2	uart_tx_rx_shifter_tb.sv	/^c_rand rng2 ($/;"	kind:instance	line:83	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.rst	uart_tx_rx_shifter_tb.sv	/^logic rst;$/;"	kind:register	line:34	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.rst_once	uart_tx_rx_shifter_tb.sv	/^logic rst_once;$/;"	kind:register	line:44	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.rx1	uart_tx_rx_shifter_tb.sv	/^) rx1 ($/;"	kind:instance	line:129	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.serial_data	uart_tx_rx_shifter_tb.sv	/^logic serial_data;$/;"	kind:register	line:99	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.start	uart_tx_rx_shifter_tb.sv	/^logic start;$/;"	kind:register	line:101	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.success	uart_tx_rx_shifter_tb.sv	/^logic success = 1'b1;$/;"	kind:register	line:157	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.sv	uart_tx_rx_shifter_tb.sv	1;"	kind:file	line:1	language:SystemVerilog	roles:def	extras:inputFile	end:166	epoch:1625361590
+uart_tx_rx_shifter_tb.tx1	uart_tx_rx_shifter_tb.sv	/^) tx1 ($/;"	kind:instance	line:113	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+uart_tx_rx_shifter_tb.tx_busy	uart_tx_rx_shifter_tb.sv	/^logic tx_busy;$/;"	kind:register	line:98	language:SystemVerilog	scope:module:uart_tx_rx_shifter_tb	roles:def	extras:qualified
+usedw	preview_fifo_tb.sv	/^logic [5:0] usedw;$/;"	kind:register	line:129	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+w_two	preview_fifo_tb.sv	/^logic w_two;$/;"	kind:register	line:171	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+w_word	preview_fifo_tb.sv	/^logic w_word;$/;"	kind:register	line:169	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def
+wrreq	preview_fifo_tb.sv	/^logic [2:0] wrreq;$/;"	kind:register	line:106	language:SystemVerilog	scope:module:preview_fifo_tb	roles:def

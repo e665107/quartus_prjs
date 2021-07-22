@@ -1,0 +1,22 @@
+////////////////////////////////////////////////////////////////////////////////
+//   __  ______
+//  |  ||____  \     Company     : CHENGDU IMAGE DESIGN
+//  |  |     \  \    Last Update : <lastdate>
+//  |  |     |  |    Module Name : <module>
+//  |  | ____/  /    Project Name: <project>
+//  |__||______/     Engineer    : <author>
+//
+// Additional Comments: <comments>
+//
+// Copyright (c) <year> by <company>. This model is the confidential and
+// proprietary property of <company>. and the possession or use of this
+// file requires a written license from <company>.
+////////////////////////////////////////////////////////////////////////////////
+//
+// Version:
+//  <lastdate>: Created.
+//
+// `define STEP_ONE
+`define MODULE_7458
+`define ALWAYS_CASE
+
