@@ -1,0 +1,48 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# File: G:\test_projects\quartus_prjs\digital_system\doc\pins\TFT_CTRL.csv
+# Generated on: Sat Jul 31 22:01:16 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+Clk,Input,PIN_E1,1,B1_N0,PIN_E1,3.3-V LVTTL,,,,,
+Rst_n,Input,PIN_E16,6,B6_N0,PIN_E16,3.3-V LVTTL,,,,,
+TFT_BLANK,Output,PIN_J12,5,B5_N0,PIN_J12,3.3-V LVTTL,,,,,
+TFT_CLK,Output,PIN_J15,5,B5_N0,PIN_J15,3.3-V LVTTL,,,,,
+TFT_DE,Output,PIN_J11,5,B5_N0,PIN_J11,3.3-V LVTTL,,,,,
+TFT_HS,Output,PIN_K11,5,B5_N0,PIN_K11,3.3-V LVTTL,,,,,
+TFT_RGB[15],Output,PIN_P16,5,B5_N0,PIN_P16,3.3-V LVTTL,,,,,
+TFT_RGB[14],Output,PIN_N15,5,B5_N0,PIN_N15,3.3-V LVTTL,,,,,
+TFT_RGB[13],Output,PIN_R16,5,B5_N0,PIN_R16,3.3-V LVTTL,,,,,
+TFT_RGB[12],Output,PIN_P15,5,B5_N0,PIN_P15,3.3-V LVTTL,,,,,
+TFT_RGB[11],Output,PIN_N13,5,B5_N0,PIN_N13,3.3-V LVTTL,,,,,
+TFT_RGB[10],Output,PIN_L12,5,B5_N0,PIN_L12,3.3-V LVTTL,,,,,
+TFT_RGB[9],Output,PIN_K12,5,B5_N0,PIN_K12,3.3-V LVTTL,,,,,
+TFT_RGB[8],Output,PIN_L13,5,B5_N0,PIN_L13,3.3-V LVTTL,,,,,
+TFT_RGB[7],Output,PIN_M12,5,B5_N0,PIN_M12,3.3-V LVTTL,,,,,
+TFT_RGB[6],Output,PIN_L14,5,B5_N0,PIN_L14,3.3-V LVTTL,,,,,
+TFT_RGB[5],Output,PIN_N16,5,B5_N0,PIN_N16,3.3-V LVTTL,,,,,
+TFT_RGB[4],Output,PIN_J16,5,B5_N0,PIN_J16,3.3-V LVTTL,,,,,
+TFT_RGB[3],Output,PIN_K15,5,B5_N0,PIN_K15,3.3-V LVTTL,,,,,
+TFT_RGB[2],Output,PIN_K16,5,B5_N0,PIN_K16,3.3-V LVTTL,,,,,
+TFT_RGB[1],Output,PIN_J13,5,B5_N0,PIN_J13,3.3-V LVTTL,,,,,
+TFT_RGB[0],Output,PIN_L15,5,B5_N0,PIN_L15,3.3-V LVTTL,,,,,
+TFT_VS,Output,PIN_J14,5,B5_N0,PIN_J14,3.3-V LVTTL,,,,,
+altera_reserved_tck,Input,,,,PIN_H3,,,,,,
+altera_reserved_tdi,Input,,,,PIN_H4,,,,,,
+altera_reserved_tdo,Output,,,,PIN_J4,,,,,,
+altera_reserved_tms,Input,,,,PIN_J5,,,,,,
