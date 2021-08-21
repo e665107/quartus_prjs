@@ -1,0 +1,15 @@
+* project
+** introduction
+此工程是像freertos, linux_app_framework一样，用于fpga开发集中管理的
+综合项目，其他的项目可以在此基础上裁剪实现，未来只做核心维护的，
+同时不断commit迭代，支持本地和远程两种模式的管理
+** use
+1. 在digital_system_top_header.v定义一个应用
+   后缀以_SYS结尾
+2. 
+3. 
+4. 
+** 
+** 
+** 
+** 

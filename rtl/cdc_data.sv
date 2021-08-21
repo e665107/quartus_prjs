@@ -2,7 +2,6 @@
 // cdc_data.sv
 // Konstantin Pavlov, pavlovconst@gmail.com
 //--------------------------------------------------------------------------------
-
 // INFO --------------------------------------------------------------------------------
 // Standard two-stage synchronizer
 // CDC stands for "clock data crossing"
